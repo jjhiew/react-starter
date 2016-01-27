@@ -1,0 +1,14 @@
+{
+    "extends": "google",
+    "plugins": [
+      "react"
+    ],
+    "rules": {
+    },
+    "env": {
+      "browser": true
+    },
+    "globals": {
+      "ON_TEST": true
+    }
+}
