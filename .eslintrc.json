@@ -5,7 +5,8 @@
     ],
     "rules": {
       "no-unused-vars": 1,
-      "max-len": 0
+      "max-len": 0,
+      "require-jsdoc": 0
     },
     "env": {
       "browser": true
