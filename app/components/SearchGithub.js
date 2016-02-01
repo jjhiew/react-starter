@@ -11,7 +11,7 @@ var SearchGithub = React.createClass({
     this.usernameRef.value = '';
 
     // this.history is added by Mixin
-    this.history.pushState(null, 'profile/' + username);
+    this.history.pushState(null, '/profile/' + username);
   },
   render: function() {
     return (
